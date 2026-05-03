@@ -1,6 +1,6 @@
 const TEMPLATE_SHEET_NAME = 'Payment Template';
 const TEMP_SHEET_NAME = 'Payment PDF';
-const PAYMENT_DATE_CELL = 'B5';
+const PAYMENT_DATE_CELL = 'A5';
 const RECIPIENT_EMAIL_CELL = 'B10';
 const DRIVE_FOLDER_ID = '1zvcWrweChv892f9_f9jsTdDV8IcjeWNP';
 

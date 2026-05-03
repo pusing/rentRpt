@@ -25,6 +25,7 @@ Define clear constants at the top of the main script file:
 Project-specific values:
 
 - `DRIVE_FOLDER_ID`: `1zvcWrweChv892f9_f9jsTdDV8IcjeWNP`
+- `PAYMENT_DATE_CELL`: `A5`
 - Recipient email: `rentreporting@propertymanagercloud.com`
 - Email subject: `Rent Report for 40736 Robin St, Fremont, CA`
 - PDF file name pattern: `yyyyMMdd_RentRpt.pdf`
