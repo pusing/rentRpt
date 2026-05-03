@@ -9,12 +9,12 @@ const RENT_REPORT_SUBJECT = 'Rent Report for 40736 Robin St, Fremont, CA';
 const RENT_REPORT_BODY = "Hi:\n\nAttached is my tenant's rent report.\nThe rent is paid on time.\n\nThank you.\n\n-Kenny";
 
 function onOpen() {
-  const menuName = getCurrentMonthSheetName_();
+  const menuName = 'Payment';
   logStatus_('Creating custom menu: ' + menuName);
 
   SpreadsheetApp.getUi()
     .createMenu(menuName)
-    .addItem('Generate Rent PDF and Email', 'generateRentPdfAndEmail')
+    .addItem('Generate PDF and Email', 'generateRentPdfAndEmail')
     .addToUi();
 
   logStatus_('Custom menu created.');

@@ -46,16 +46,15 @@ Thank you.
 ## Google Sheets Menu
 
 - Add an `onOpen()` function.
-- Create a custom Google Sheets menu named for the current month in `yyMM`
-  format.
-- Example: in May 2026, the menu name is `2605`.
+- Create a custom Google Sheets menu named `Payment`.
 - The menu must include one item:
-  - Item label: `Generate Rent PDF and Email`
+  - Item label: `Generate PDF and Email`
   - Handler function: generate the rent PDF and draft email.
+- Do not create a separate month-named menu such as `2605`.
 
 ## Month Sheet Workflow
 
-When the user clicks `Generate Rent PDF and Email`:
+When the user clicks `Generate PDF and Email`:
 
 1. Determine today's date using the spreadsheet timezone.
 2. Determine the current month sheet name in `yyMM` format.
